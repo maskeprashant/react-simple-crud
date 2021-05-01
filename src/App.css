@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+h1 span{
+  display: block;
+  font-size: 14px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.form, .list{
+  border:1px solid gray;
+  flex: 1 1 auto;
+  text-align: left;
+  margin:10px;
+  padding:10px 30px
+}
+
+label{
+  font-size: 0.9em;
+  display: block;
+}
+
+table{
+  border-collapse: collapse;
+}
+table td{
+  padding:5px;
+}
+thead tr{
+  background:#555;
+  color:#fff;
+}
+tr td{
+  border-bottom: 1px solid gray;
+
+}
+
+tr:nth-child(even){
+  background:silver;
+}
+tr td button{
+  opacity:0;
+}
+tr:hover button{
+  opacity:1;
+  transition:.3s all ease;
+}
